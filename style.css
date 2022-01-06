@@ -47,7 +47,7 @@ h5{
     width: 33%;
     padding: 10px;
     margin: 0 8px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .card-item img{
     width: 60%;
@@ -63,7 +63,31 @@ h5{
 #goal-card{
     box-shadow: 10px 10px 50px gray;
     background-color: rgba(245, 245, 154, 0.219);
+} 
+/* background part start */
+.skills-aria{
+    background-image: url("images/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15%;
+    background-origin: border-box;
 }
+.group-study-aria{
+    background-image: url("images/shape-1.png");
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: right 5% bottom 0%;
+    padding-left: 8px;
+}
+.app-aria{
+    background-image: url("images/shape-3.png");
+    background-repeat: no-repeat;
+    background-position: top 0px left 50px;
+    background-size: 10%;
+}
+
+/* background part end */
+
 .study-part, .group-study{
     display: flex;
 }
@@ -79,7 +103,8 @@ h5{
 }
 .group-flex img{
     width: 60%;
-    margin-left: 180px;
+    margin-left: 145px;
+    margin-bottom: 40px;
 }
 .study-text{
     margin-top: 60px;
@@ -90,17 +115,6 @@ h5{
 }
 .app-header{
     text-align: center;
-}
-footer h2{
-    margin: 0%;
-}
-footer{
-    box-sizing: border-box;
-    color: white;
-    text-align: center;
-    background-color: black;
-    height: 75px;
-    padding-top: 10px;
 }
 .app-flex{
     display: flex;
@@ -121,4 +135,15 @@ footer{
 }
 .app-text{
     margin-left: 70px;
+}
+footer h2{
+    margin: 0%;
+}
+footer{
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    background-color: black;
+    height: 75px;
+    padding-top: 10px;
 }
