@@ -1,0 +1,124 @@
+body{
+    margin: 0%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+h5{
+    color: rgba(0, 0, 0, 0.76);
+}
+.title{
+    margin-left: 30px;
+}
+.header-text-aria{
+    display: flex;
+}
+.header-flex{
+    width:50%;
+}
+.header-flex img{
+    width: 70%;
+    margin-left: 100px;
+}
+.heading{
+    font-size: 45px;
+}
+.color{
+    color: orange;
+}
+#border-set{
+    border-left: 5px solid tomato;
+    padding: 5px;
+}
+.link-btn{
+    text-decoration: none;
+    color: white;
+    background-color: turquoise;
+    padding: 15px;
+    border-radius: 7px;
+}
+#card-header{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.card-flex{
+    display: flex;
+}
+.card-item{
+    box-sizing: border-box;
+    width: 33%;
+    padding: 10px;
+    margin: 0 8px;
+    border-radius: 10px;
+}
+.card-item img{
+    width: 60%;
+}
+#mission-card{
+    box-shadow: 10px 10px 50px gray;
+    background-color: #f7d4b85e;
+}
+#vission-card{
+    box-shadow: 10px 10px 50px gray;
+    background-color: rgba(204, 243, 209, 0.493);
+}
+#goal-card{
+    box-shadow: 10px 10px 50px gray;
+    background-color: rgba(245, 245, 154, 0.219);
+}
+.study-part, .group-study{
+    display: flex;
+}
+.study-flex, .group-flex{
+    width: 50%;
+}
+.study-flex img{
+    width: 60%;
+    margin-left: 80px;
+}
+.study-flex{
+    width: 50%;
+}
+.group-flex img{
+    width: 60%;
+    margin-left: 180px;
+}
+.study-text{
+    margin-top: 60px;
+}
+.group-study-text{
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.app-header{
+    text-align: center;
+}
+footer h2{
+    margin: 0%;
+}
+footer{
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    background-color: black;
+    height: 75px;
+    padding-top: 10px;
+}
+.app-flex{
+    display: flex;
+}
+.app-item{
+    width: 40%;
+}
+.app-item img{
+    width: 50%;
+    margin-bottom: 60px;
+    margin-left: 120px;
+}
+.year{
+    color:rgb(230, 65, 65);
+}
+.footer-text{
+    margin-bottom: 30px;
+}
+.app-text{
+    margin-left: 70px;
+}
