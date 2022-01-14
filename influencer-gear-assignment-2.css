@@ -142,5 +142,11 @@ body{
     padding-left: 14px;
 }
 
+.product-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
 
 
