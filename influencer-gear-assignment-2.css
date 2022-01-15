@@ -48,6 +48,12 @@ body{
 .simble{
     margin-left: 40px;
 }
+/*======== main camera images Style ================ */
+.camera-img{
+    background-image: url("Media/images/Circle\ design.svg");
+    background-repeat: no-repeat;
+}
+
 
 /*=========  Divider hr  =========*/
 .hr-up{
@@ -86,9 +92,10 @@ body{
 .product-info{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
+    grid-gap: 60px;
 }
 .protuct-item-frame{
+    padding: 0px;
     width: 329px;
     height: 476px;
     border: 2px solid red;
@@ -149,6 +156,18 @@ body{
     padding-left: 14px;
 }
 
+/* See more button  */
+
+.see-more-btn a{
+    width: 99px;
+    height: 24px;
+    display: inline-block;
+    color: #E02C6D;
+    margin-top: 50px;
+    margin-left: 1090px;
+    text-decoration: none;
+    position: absolute;
+}
 
 
 
