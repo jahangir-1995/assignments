@@ -78,6 +78,8 @@ body{
 .popular-product > h2{
     margin-top: 100px;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 .protuct-item-frame{
@@ -145,7 +147,7 @@ body{
 .product-info{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 30px;
 }
 
 
